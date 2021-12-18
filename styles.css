@@ -18,6 +18,7 @@
   body{
     background: var(--secondary);
     overflow-x: hidden;
+    font-family: 'Rubik Regular';
   }
   .button{
     background: none;
@@ -42,7 +43,10 @@
   }
   
   /* fonts */
-  
+  @font-face{
+      font-family: 'Rubik Regular';
+      src: url('/assets/fonts/Rubik-Regular.ttf');
+  }
   /* mobile styles */
   
   /* small tablet styles */
